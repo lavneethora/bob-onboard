@@ -12,7 +12,7 @@ Built solo by [Lavneet Hora](https://github.com/lavneethora) for the [IBM Bob Ha
 
 Every researcher who joins a new project hits the same wall. You clone the repo, open the folder, and see hundreds of files across dozens of modules with minimal documentation. You spend days — sometimes weeks — figuring out what's what.
 
-I lived this. When I joined a research group working on a phishing detection framework, I spent days manually mapping a four-level ensemble hierarchy (extractor → detector → modality → global). Deep into the codebase, I discovered that a class called `PUFAttacker` was entirely unimplemented — just a placeholder masquerading as real code. No documentation warned me. No onboarding guide existed.
+I lived this. When I joined a research group, I spent days trying to understand a complex codebase with multiple abstraction layers and almost no documentation. No onboarding guide existed. No one warned me about placeholder classes masquerading as real implementations.
 
 That experience — wasted time, hidden gotchas, tribal knowledge locked in senior developers' heads — is universal across research labs, open-source ML projects, and academic codebases.
 
@@ -115,7 +115,7 @@ Every Bob session used to build this project is exported in `bob_sessions/`.
 
 ## The Authentic Story
 
-This isn't a hypothetical problem. When I joined a research group at Texas Tech working on the PUF (Phishing Unified Framework) project, I spent days mapping a complex codebase with a four-level ensemble hierarchy. I discovered an unimplemented placeholder class (`PUFAttacker` vs the actual `PUFAttack`) only after extensive manual exploration. I wrote a 1,200-word tutorial documenting what I learned — the hard way.
+This isn't a hypothetical problem. When I joined a research group, I spent days mapping a complex codebase with multiple abstraction layers. I discovered an unimplemented placeholder class only after extensive manual exploration. I wrote a detailed tutorial documenting what I learned — the hard way.
 
 **bob-onboard automates what I did manually.** The "Known Incomplete Components" section exists specifically because of that experience. When the mode ran on ART, it found 30+ `NotImplementedError` sites, framework-specific limitations, and TODO markers — exactly the kind of hidden information that wastes new contributors' time.
 

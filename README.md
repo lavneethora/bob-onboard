@@ -10,11 +10,11 @@ Built solo by [Lavneet Hora](https://github.com/lavneethora) for the [IBM Bob Ha
 
 ## The Problem
 
-Every researcher who joins a new project hits the same wall. You clone the repo, open the folder, and see hundreds of files across dozens of modules with minimal documentation. You spend days — sometimes weeks — figuring out what's what.
+Every researcher who joins a new project hits the same wall. You clone the repo, open the folder, and see hundreds of files across dozens of modules with minimal documentation. You spend days, sometimes weeks figuring out what's what.
 
 I lived this. When I joined a research group, I spent days trying to understand a complex codebase with multiple abstraction layers and almost no documentation. No onboarding guide existed. No one warned me about placeholder classes masquerading as real implementations.
 
-That experience — wasted time, hidden gotchas, tribal knowledge locked in senior developers' heads — is universal across research labs, open-source ML projects, and academic codebases.
+That experience, wasted time, hidden gotchas, tribal knowledge locked in senior developers' heads is universal across research labs, open-source ML projects, and academic codebases.
 
 ## The Solution
 
